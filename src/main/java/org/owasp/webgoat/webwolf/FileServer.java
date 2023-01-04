@@ -62,7 +62,7 @@ public class FileServer {
   private int port;
 
   @RequestMapping(
-      path = "/file-server-location",
+      path = "/check",
       consumes = ALL_VALUE,
       produces = MediaType.TEXT_PLAIN_VALUE)
   @ResponseBody
